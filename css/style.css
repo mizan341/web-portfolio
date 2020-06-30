@@ -9,22 +9,24 @@ body{
     width: 95%;
     margin: auto;
 }
-------------------------------menu bar start------------------------------*/
+/*------------------------------menu bar start------------------------------*/
 /*---------------------------- brand logo start------------------------- */
 .navbar-expand-lg{
     
-     margin-top: 0px;
+     margin: 0px 0px 0px 0px ;
 }
-.navbar-brand{
+.logo-brand{
     font-family: Cotillion;
     font-weight: bold;
     font-size: 45px;
     color: #eb2f06;
-    margin-left: 30px;  
+    margin: 0px 0px 0px 5px;
+    padding: 10px 5px 0px 10px;
+    
 }
-.navbar-brand:hover{
+.logo-brand:hover {
    color: #0E8CF1;
-   transform: scale(1.05);
+   transform: scale(1.5);
 }
 /*---------------------------- brand logo end------------------------- */
 /*---------------------------- menu start------------------------- */
@@ -39,9 +41,11 @@ ul li a{
 ul li {
     margin:25px 5px 5px 5px;
     padding: 8px 15px;
-    
-   display: inline-block;
+    display: inline-block;
    text-decoration: none;
+}
+.menu-ul{
+    float: left;
 }
 
 .menu:hover {
@@ -53,8 +57,14 @@ a:hover{
     color: #353b48;
     text-decoration: none;
 }
+.head-menu{
+    float: left;
+}
 /*---------------------------- menu end------------------------- */
 /*---------------------------- btn start------------------------- */
+.head-button{
+    float: none;
+}
 button.first {
     text-transform: uppercase;
     font-weight: bold;
@@ -64,19 +74,24 @@ button.first {
     padding: 8px 15px;
     border-radius: 5px;
     border: transparent;
-    margin: 5px 10px;
+    margin: 25px 5px 0px 5px;
+  
 }
 button.first:hover {
     background:linear-gradient(to right, #FF1800, #FF8E00);
     cursor: pointer;
     border: transparent;
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 /*---------------------------- btn end------------------------- */
 /*---------------------------- social media------------------------- */
+.social-media{
+    margin: -40px 0px 0px 0px;
+    padding: -20px 0px 0px 0px;
+}
 .fa:hover {
     opacity: 2;
-    transform: scale(1.99);
+    transform: scale(2);
     text-decoration: none;
 }
 
@@ -93,30 +108,31 @@ button.first:hover {
     color: #0073B0;
 }
 
-/*.fa-youtube-play:hover {
-    color: #FF0000;
-}*/
+
 .fa-facebook {
     
     color: #0E8CF1;
-    margin-left: 10px;
-}
+    margin-right: -5px;
+    }
+    
+
 
 .fa-twitter {
     color: #32CCFE;
+    margin-right: 5px;
 }
 
 .fa-linkedin {
     color: #0073B0;
 }
 
-/*.fa-youtube-play {
-    color: #FF0000;
-}*/
+
 /*----------------------------- social media ------------------------------------*/
 /*----------------------------------menu bar end------------------------------*/
 hr{
     border: 1px solid #FF8E00;
+    margin-top: 30px;
+    
 }
 span{
     font-style: italic;
@@ -130,6 +146,7 @@ span{
      margin: 0px;
      color: white;
      padding: 10px;
+     text-align: center;
     
 }
 .dropdown-item:nth-child(2n) {
@@ -160,10 +177,12 @@ span{
 .section-one{
     width: 40%;
     float: left;
-    min-height: 600px;
+    min-height: 500px;
     margin-left: 5%;
     margin-right: 5%;
     text-align: justify;
+    overflow: hidden;
+    
 }
 .section-one img {
     width: 90%;
@@ -172,7 +191,7 @@ span{
 
 .section-two{
     width: 40%;
-     min-height: 600px;
+     min-height: 500px;
     overflow: hidden;
     margin-left: 5%;
     text-align: justify;
@@ -230,6 +249,7 @@ span{
     padding: 5px 10px 5px 10px;
     border-left: 9px solid orange;
     margin-bottom:  50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section-one-down h3{
     text-transform: capitalize;
@@ -277,7 +297,9 @@ span{
     padding: 5px 10px 5px 10px;
     border-left: 9px solid blue;
     margin-bottom:  50px;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
 
 footer p{
    
@@ -285,3 +307,80 @@ footer p{
     background: linear-gradient(to right, #FF8E00, #FF1800);
 
 }
+
+@media all and (max-width: 1000px) {
+    .section-one {
+        width: 90%;
+        float: none;
+        margin: auto;
+
+    }
+
+    .section-two {
+        width: 90%;
+        margin: auto;
+     }
+    .section-one-down {
+        width: 90%;
+        float: none;
+        padding: 10px 20px 10px 20px;
+        margin: auto;
+       
+    }
+    .section-two-down {
+        width: 90%;
+        padding: 10px 20px 10px 20px;
+        margin-top: 20px;
+        overflow: hidden;
+
+    }
+    p{
+        padding: 20px 20px 20px 20px;
+        
+        margin: auto;
+    }
+    footer p {
+
+       overflow: hidden;
+       margin-top: 30px;
+
+    }
+    button.first{
+        width: 90%;
+        margin-left: 10px;
+        margin-left: 33px;
+        
+    }
+    
+}
+@media all and (max-width: 1060px) {
+    .head-button{
+        width: 95.5% !important;
+        
+       
+    }
+    .head-menu{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .menu-ul{
+         width: 100%;
+         margin: auto;
+         text-align: center;
+    }
+    
+}
+@media all and (max-width: 660px) {
+    .menu{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        
+    }
+}
+
+
+
