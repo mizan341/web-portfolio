@@ -369,7 +369,25 @@ footer p{
         margin: auto;
         text-align: center;
     }
-    
+    .navbar-expand-lg {
+
+        margin: 0px 0px 0px 0px;
+    }
+
+    .logo-brand {
+        font-family: Cotillion;
+        font-weight: bold;
+        font-size: 45px;
+        color: #eb2f06;
+        margin: 0px 0px 0px 5px;
+        padding: 10px 5px 0px 10px;
+
+    }
+
+    .logo-brand:hover {
+        color: #0E8CF1;
+        transform: scale(1.5);
+    }
 }
 
 @media all and (max-width: 660px) {
@@ -380,6 +398,25 @@ footer p{
         margin-bottom: 0px;
         
         
+    }
+    .navbar-expand-lg {
+
+        margin: 0px 0px 0px 0px;
+    }
+
+    .logo-brand {
+        font-family: Cotillion;
+        font-weight: bold;
+        font-size: 45px;
+        color: #eb2f06;
+        margin: 0px 0px 0px 5px;
+        padding: 10px 5px 0px 10px;
+
+    }
+
+    .logo-brand:hover {
+        color: #0E8CF1;
+        transform: scale(1.5);
     }
 }
 @media all and (max-width: 460px) {
@@ -414,6 +451,25 @@ footer p{
         width: 100%;
         margin: auto;
         text-align: center;
+    }
+    .navbar-expand-lg {
+
+        margin: 0px 0px 0px 0px;
+    }
+
+    .logo-brand {
+        font-family: Cotillion;
+        font-weight: bold;
+        font-size: 45px;
+        color: #eb2f06;
+        margin: 0px 0px 0px 5px;
+        padding: 10px 5px 0px 10px;
+
+    }
+
+    .logo-brand:hover {
+        color: #0E8CF1;
+        transform: scale(1.5);
     }
 }
 
