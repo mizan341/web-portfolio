@@ -64,7 +64,7 @@ button.first {
     padding: 8px 15px;
     border-radius: 5px;
     border: transparent;
-    margin: 5px 5px;
+    margin: 5px 10px;
 }
 button.first:hover {
     background:linear-gradient(to right, #FF1800, #FF8E00);
@@ -89,8 +89,8 @@ button.first:hover {
     color: #32CCFE;
 }
 
-.fa-instagram:hover {
-    color: #CF3C95;
+.fa-linkedin:hover {
+    color: #0073B0;
 }
 
 /*.fa-youtube-play:hover {
@@ -106,8 +106,8 @@ button.first:hover {
     color: #32CCFE;
 }
 
-.fa-instagram {
-    color: #CF3C95;
+.fa-linkedin {
+    color: #0073B0;
 }
 
 /*.fa-youtube-play {
@@ -118,20 +118,170 @@ button.first:hover {
 hr{
     border: 1px solid #FF8E00;
 }
+span{
+    font-style: italic;
+    color: orange;
+    font-size: 38px;
+}
+.dropdown-item {
+    text-transform: uppercase;
+    font-weight: bold;
+     background: linear-gradient(to right, #FF8E00, #FF1800);
+     margin: 0px;
+     color: white;
+     padding: 10px;
+    
+}
+.dropdown-item:nth-child(2n) {
+    
+    background: linear-gradient(to left, #FF8E00, #FF1800);
+    
+}
 
 
 
-
+.section-one h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 30px 5px 15px 10px;
+}
+.section-one h5{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 30px 5px 40px 10px;
+}
+.section-one p{
+    font-size: 16px;
+    padding: 30px 5px 15px 10px;
+    color: #747d8c;
+}
 .section-one{
     width: 40%;
     float: left;
+    min-height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
+.section-one img {
+    width: 90%;
+
+}
+
 .section-two{
     width: 40%;
+     min-height: 600px;
+    overflow: hidden;
+    margin-left: 5%;
+    text-align: justify;
+    margin-top: 25px;
 }
-footer p {
-    margin: auto;
-    padding: 10px 10px 10px 50px;
+.section-two h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 30px 5px 15px 10px;
+}
+
+.section-two h5 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 30px 5px 40px 10px;
+}
+
+.section-two p {
+    font-size: 16px;
+    padding: 30px 5px 15px 10px;
+    color: #747d8c;
+}
+
+.section-two img {
+    width: 90%;
+}
+.dream-bg{
+    background: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences h2 {
+   text-transform: capitalize;
+   font-weight: bold;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 30px;
+  
+}
+.exp-bg{
+    background: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.section-one-down {
+    width: 40%;
+    float: left;
+    min-height: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+    border-left: 9px solid orange;
+    margin-bottom:  50px;
+}
+.section-one-down h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 5px 5px 5px 5px;
+}
+.section-one-down h5{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 5px 5px 5px 5px;
+    color: orange;
+}
+.section-one-down p {
+    font-size: 16px;
+    padding: 10px 5px 5px 5px;
+    color: #747d8c;
+}
+.section-two-down h3{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 5px 5px 5px 5px;
+}
+.section-two-down h5{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 5px 5px 5px 5px;
+    color: orange;
+}
+.section-two-down p {
+    font-size: 16px;
+    padding: 10px 5px 5px 5px;
+    color: #747d8c;
+}
+.section-two-down {
+    width: 40%;
+    min-height: 250px;
+    overflow: hidden;
+    margin-left: 5%;
+    text-align: justify;
+    margin-top: 25px;
+    padding: 5px 10px 5px 10px;
+    border-left: 9px solid blue;
+    margin-bottom:  50px;
+
+
+footer p{
+   
+    padding: 10px 10px 10px 20px;
     background: linear-gradient(to right, #FF8E00, #FF1800);
 
 }
