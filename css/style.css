@@ -49,12 +49,13 @@ ul li {
 }
 
 .menu:hover {
-    background-color: #55E6C1;
+    background: linear-gradient(to right, #FF8E00, #FF1800);
     border-radius: 5px;
     transform: scale(1.05);
+   
 }
 a:hover{
-    color: #353b48;
+    color: white;
     text-decoration: none;
 }
 .head-menu{
@@ -81,7 +82,7 @@ button.first:hover {
     background:linear-gradient(to right, #FF1800, #FF8E00);
     cursor: pointer;
     border: transparent;
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 /*---------------------------- btn end------------------------- */
 /*---------------------------- social media------------------------- */
@@ -308,7 +309,7 @@ footer p{
 
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1060px) {
     .section-one {
         width: 90%;
         float: none;
@@ -346,31 +347,31 @@ footer p{
 
     }
     button.first{
-        width: 90%;
+        width: 89%;
         margin-left: 10px;
         margin-left: 33px;
         
     }
-    
-}
-@media all and (max-width: 1060px) {
-    .head-button{
+    .head-button {
         width: 95.5% !important;
-        
-       
+
+
     }
-    .head-menu{
+
+    .head-menu {
         width: 100%;
         text-align: center;
         margin: auto;
     }
-    .menu-ul{
-         width: 100%;
-         margin: auto;
-         text-align: center;
+
+    .menu-ul {
+        width: 100%;
+        margin: auto;
+        text-align: center;
     }
     
 }
+
 @media all and (max-width: 660px) {
     .menu{
         width: 100%;
@@ -381,6 +382,41 @@ footer p{
         
     }
 }
+@media all and (max-width: 460px) {
+    .menu{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        
+    }
+    button.first {
+        width: 89%;
+        margin-left: 10px;
+        margin-left: 33px;
+
+    }
+
+    .head-button {
+        width: 95.5% !important;
+
+
+    }
+
+    .head-menu {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .menu-ul {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
 
 
 
