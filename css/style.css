@@ -1,67 +1,83 @@
 body{
     margin: 0;
     padding: 0;
-   font-family: sans-serif, Verdana,Geneva,Tahoma;
-   background-color:;    
+   font-family: sans-serif, Verdana, Geneva,Tahoma;
+   background-image: url("../images/top-banner.png");
+   background-repeat: no-repeat;
 }
-.container-self{
-    width: 90%;
+.container-fluid{
+    width: 95%;
     margin: auto;
 }
-/*----------------------------------menu bar start------------------------------*/
+------------------------------menu bar start------------------------------*/
 /*---------------------------- brand logo start------------------------- */
 .navbar-expand-lg{
-    background-color: #353b48;
+    
      margin-top: 0px;
 }
 .navbar-brand{
     font-family: Cotillion;
     font-weight: bold;
     font-size: 45px;
-    color: #eb2f06;  
+    color: #eb2f06;
+    margin-left: 30px;  
 }
 .navbar-brand:hover{
    color: #0E8CF1;
-   transform: scale(1.1);
+   transform: scale(1.05);
 }
 /*---------------------------- brand logo end------------------------- */
 /*---------------------------- menu start------------------------- */
-.nav-link{
+ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
+    color: #2f3542;
     margin-top: 0px;
+    text-decoration: none;
 }
-.nav-item {
-    margin-left:5px;
-    padding: 0px 2px;
-    margin-top: 0px;
+ul li {
+    margin:25px 5px 5px 5px;
+    padding: 8px 15px;
+    
+   display: inline-block;
+   text-decoration: none;
 }
 
 .menu:hover {
     background-color: #55E6C1;
     border-radius: 5px;
+    transform: scale(1.05);
 }
-.nav-link:hover{
+a:hover{
     color: #353b48;
+    text-decoration: none;
 }
 /*---------------------------- menu end------------------------- */
 /*---------------------------- btn start------------------------- */
-.btn{
+button.first {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
+    color: white;
+    background: linear-gradient(to right, #FF8E00, #FF1800);
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px 5px;
 }
-.btn:hover{
-    background-color: white;
-    color:#0E8CF1;
+button.first:hover {
+    background:linear-gradient(to right, #FF1800, #FF8E00);
+    cursor: pointer;
+    border: transparent;
+    transform: scale(1.05);
 }
 /*---------------------------- btn end------------------------- */
 /*---------------------------- social media------------------------- */
 .fa:hover {
     opacity: 2;
-    transform: scale(1.9);
+    transform: scale(1.99);
+    text-decoration: none;
 }
 
 .fa-facebook:hover {
@@ -99,4 +115,24 @@ body{
 }*/
 /*----------------------------- social media ------------------------------------*/
 /*----------------------------------menu bar end------------------------------*/
+hr{
+    border: 1px solid #FF8E00;
+}
 
+
+
+
+.section-one{
+    width: 40%;
+    float: left;
+}
+.section-two{
+    width: 40%;
+}
+
+footer p {
+    margin: auto;
+    padding: 10px 10px 10px 50px;
+    background: linear-gradient(to right, #FF8E00, #FF1800);
+
+}
